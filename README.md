@@ -63,3 +63,31 @@ CoSearch is a Python-based tool designed to streamline lead generation for busin
 5. The results will:
    - Be displayed on the application interface.
    - Automatically save to an Excel file in the application directory for further use.
+
+## Directory Structure
+
+```plaintext
+cosearch/
+│
+├── icons/                 # Icons used in the GUI
+├── logo/                  # Logo files for the application
+├── LICENSE                # License file for the project
+├── README.md              # Documentation
+├── cosearchgui.py         # Main application GUI
+├── login.py               # Login functionality
+├── update_app.py          # Update checking functionality
+```
+
+## Requirements
+
+Install the dependencies by running:
+
+```
+pip install -r requirements.txt
+```
+
+## License
+This project is licensed under the Apache-2.0 License. See the `LICENSE` file for more details.
+
+## Acknowledgments
+CoSearch was developed by Mustafa Uğur Baskın to innovate lead generation processes for businesses. Originally hosted on cosearchteam.com, the platform demonstrated the potential of combining automation and simplicity in business tools. While the hosting has ended, the core application remains available here for open-source use and inspiration.
